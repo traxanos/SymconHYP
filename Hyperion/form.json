@@ -1,0 +1,14 @@
+{
+  "elements": [
+    { "name": "Host", "type": "ValidationTextBox", "caption": "Host" },
+    { "name": "Port", "type": "NumberSpinner", "caption": "Port" },
+    { "name": "Priority", "type": "NumberSpinner", "caption": "Priorität" }
+  ],
+  "actions": [
+    { "type": "Button", "label": "Reset", "onClick": "HYP_Clear($id, false);" },
+    { "type": "Button", "label": "Globaler", "onClick": "HYP_Clear($id, true);" },
+    { "type": "Button", "label": "Farbe Rot", "onClick": "HYP_SetColor($id, 255, 0, 0);" },
+    { "type": "Button", "label": "Farbe Gruen", "onClick": "HYP_SetColor($id, 0, 255, 0);" },
+    { "type": "Button", "label": "Farbe Blau", "onClick": "HYP_SetColor($id, 0, 0, 255);" }
+  ]
+}

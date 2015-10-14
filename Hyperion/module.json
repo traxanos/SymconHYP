@@ -1,0 +1,11 @@
+{
+  "id": "{9A9C8360-806C-41B6-A6CD-9A73153A495A}",
+  "name": "Hyperion",
+  "type": 3,
+  "vendor": "Hyperion",
+  "aliases": [ "Hyperion Controller" ],
+  "parentRequirements": [],
+  "childRequirements": [],
+  "implemented": [],
+  "prefix": "HYP"
+}
