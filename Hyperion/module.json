@@ -3,7 +3,7 @@
   "name": "Hyperion",
   "type": 3,
   "vendor": "Hyperion",
-  "aliases": [ "Hyperion Controller" ],
+  "aliases": [ "Hyperion Server" ],
   "parentRequirements": [],
   "childRequirements": [],
   "implemented": [],
