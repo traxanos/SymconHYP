@@ -41,7 +41,7 @@ class Hyperion extends IPSModule {
     return $data;
   }
 
-  function Request($args) {
+  public function Request($args) {
     $host = $this->ReadPropertyString('Host');
     $port = $this->ReadPropertyInteger('Port');
     $priority = $this->ReadPropertyInteger('Priority');
